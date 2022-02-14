@@ -43,3 +43,7 @@ console.log(
   Math.min.apply(Math, [1, 2, 3]), // logs 1
   Math.max.apply(Math, [1, 2, 3])  // logs 3
 )
+
+// see ./bind.js to understand the related `bind` method
+// which also allows the function's `this` to be changed
+// but returns a new function instead
