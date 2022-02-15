@@ -64,3 +64,5 @@ myWrappedSandwich
   .then(wrappedSandwich => wrappedSandwich.wrapper)
   // the value returned from the previous `then` is passed to the next one:
   .then(sandwich => console.log('Eat', sandwich))
+
+// see ./async-await.js for more asynchronous patterns
